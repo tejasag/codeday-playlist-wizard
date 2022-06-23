@@ -16,12 +16,12 @@
   flex-direction: column;
   justify-content: left;
   align-items: left;
-  background-color: #338eda;
+  background-color: rgb(255 104 107);
   color: white;
 }
 
 .title a {
-  color: #0070f3;
+  color: rgb(255 104 107);
   text-decoration: none;
 }
 
@@ -87,7 +87,6 @@
   color: black;
   border-color: black;
 }
-
 
 .card h3 {
   margin: 0 0 1rem 0;
