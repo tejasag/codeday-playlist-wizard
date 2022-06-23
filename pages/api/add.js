@@ -70,6 +70,6 @@ export default async (req, res) => {
         console.log(e.response.data);
         res.redirect("/bug");
       });
-    if (addTrack.response) res.redirect("/success");
+    if (!addTrack.error) res.redirect("/success");
   }
 };
